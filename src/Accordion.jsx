@@ -1,7 +1,6 @@
 import AccordionItem from './AccordionItem';
 
 const Accordion = ({ data }) => {
-	console.log(data[0].title);
 	return (
 		<ul className='accordion'>
 			{data.map(({ title, text }, index) => (
