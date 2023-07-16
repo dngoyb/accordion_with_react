@@ -1,3 +1,5 @@
+import Accordion from './Accordion';
+
 const faqs = [
 	{
 		title: 'Where are these chairs assembled?',
@@ -14,7 +16,11 @@ const faqs = [
 ];
 
 const App = () => {
-	return <div>Accordion</div>;
+	return (
+		<div className=''>
+			<Accordion data={faqs} />
+		</div>
+	);
 };
 
 export default App;
